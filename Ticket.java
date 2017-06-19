@@ -8,6 +8,7 @@ public class Ticket {
 	private int screenNo;
 	private String showDate;
 	private String slot;
+	private Double totalPrice;
 	private int seats;
 	private String bookingDate;
 
@@ -59,6 +60,14 @@ public class Ticket {
 		this.slot = slot;
 	}
 
+	public Double getTotalPrice() {
+		return totalPrice;
+	}
+
+	public void setTotalPrice(Double totalPrice) {
+		this.totalPrice = totalPrice;
+	}
+
 	public int getSeats() {
 		return seats;
 	}
@@ -78,7 +87,7 @@ public class Ticket {
 	@Override
 	public String toString() {
 		return "Ticket [ticketId=" + ticketId + ", mobileNo=" + mobileNo + ", movieName=" + movieName + ", screenNo="
-				+ screenNo + ", showDate=" + showDate + ", slot=" + slot + ", seats=" + seats + ", bookingDate="
-				+ bookingDate + "]";
+				+ screenNo + ", showDate=" + showDate + ", slot=" + slot + ", totalPrice=" + totalPrice + ", seats="
+				+ seats + ", bookingDate=" + bookingDate + "]";
 	}
 }
