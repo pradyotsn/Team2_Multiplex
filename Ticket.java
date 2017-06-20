@@ -9,7 +9,7 @@ public class Ticket {
 	private String showDate;
 	private String slot;
 	private Double totalPrice;
-	private int seats;
+	private String seats;
 	private String bookingDate;
 
 	public int getTicketId() {
@@ -68,11 +68,11 @@ public class Ticket {
 		this.totalPrice = totalPrice;
 	}
 
-	public int getSeats() {
+	public String getSeats() {
 		return seats;
 	}
 
-	public void setSeats(int seats) {
+	public void setSeats(String seats) {
 		this.seats = seats;
 	}
 
