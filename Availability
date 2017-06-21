@@ -1,0 +1,75 @@
+package com.proj.beans;
+
+public class Availability {
+
+	private String showDate;
+	private int screenNo;
+	private String cls;
+	private String slot;
+	private int available;
+	private String bSeats;
+	
+	public Availability() {
+	
+	}
+
+	public String getShowDate() {
+		return showDate;
+	}
+
+	public void setShowDate(String showDate) {
+		this.showDate = showDate;
+	}
+
+	public int getScreenNo() {
+		return screenNo;
+	}
+
+	public void setScreenNo(int screenNo) {
+		this.screenNo = screenNo;
+	}
+
+	public String getCls() {
+		return cls;
+	}
+
+	public void setCls(String cls) {
+		this.cls = cls;
+	}
+
+	public String getSlot() {
+		return slot;
+	}
+
+	public void setSlot(String slot) {
+		this.slot = slot;
+	}
+
+	public int getAvailable() {
+		return available;
+	}
+
+	public void setAvailable(int available) {
+		this.available = available;
+	}
+
+	public String getbSeats() {
+		return bSeats;
+	}
+
+	public void setbSeats(String bSeats) {
+		this.bSeats = bSeats;
+	}
+
+	@Override
+	public String toString() {
+		return "Availability [showDate=" + showDate + ", screenNo=" + screenNo + ", cls=" + cls + ", slot=" + slot
+				+ ", available=" + available + ", bSeats=" + bSeats + "]";
+	}
+	
+	
+	
+	
+	
+	
+}
